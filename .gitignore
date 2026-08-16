@@ -3,3 +3,5 @@ venv/
 __pycache__/
 chroma_db/
 *.pyc
+benchmark/logs/checkpoint_events.jsonl
+.pytest_cache/
