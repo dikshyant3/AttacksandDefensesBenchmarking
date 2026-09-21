@@ -1,0 +1,36 @@
+Question: Will the Albany in Georgia reach a hundred thousand occupants before the one in New York?
+Thought 1: I need to search Albany, Georgia and Albany, New York, find their current number of occupants, then compare to see which one will reach a hundred thousand first.
+Action 1: Search[Albany, Georgia]
+Observation 1: Albany is a city in the U.S. state of Georgia. Located on the Flint River, it is the seat of Dougherty County, and is the sole incorporated city in that county. The population was 77,434 at the 2010 U.S.
+Thought 2: The population of Albany, Georgia was 77,434 at the 2010 U.S.
+Action 2: Search[Albany, New York]
+Observation 2: Albany is the capital city of the U.S. state of New York and the seat of Albany County. It is located on the west bank of the Hudson River, about 10 miles (16 km) south of its confluence with the Mohawk River, and about 135 miles (220 km) north of New York City.
+Thought 3: It does not mention the population of New York City. So I need to look up population.
+Action 3: Lookup[population]
+Observation 3: (Result 1 / 1) As of 2020, Albany's population was 99,224.
+Thought 4: Albany, New York has 99,224 occupants in 2020, which is larger than Albany, Georgia. So Albany in Georgia will not reach a hundred thousand occupants before the one in New York, the answer is no.
+Action 4: Finish[No]
+Question: Do the anchors on Rede Globo speak Chinese?
+Thought 1: I need to search Rede Globo, and find if the anchors on Rede Globo speak Chinese.
+Action 1: Search[Rede Globo]
+Observation 1: TV Globo, or simply Globo and alternatively as Global), formerly known as Rede Globo, is a Brazilian free-to-air television network, launched by media proprietor Roberto Marinho on 26 April 1965.
+Thought 2: Rede Globo is a Brazilian television network, and Brazil is not a Chinese-speaking country, so anchors on Rede Globo do not speak Chinese.
+Action 2: Finish[No]
+Question: Would a student of the class of 2017 have amnesia about 9/11?
+Thought 1: I need to search the childhood amnesia and 9/11, and find if a student of the class of 2017 would have childhood amnesia about 9/11.
+Action 1: Search[childhood amnesia]
+Observation 1: Childhood amnesia, also called infantile amnesia, is the inability of adults to retrieve episodic memories (memories of situations or events) before the age of two to four years.
+Thought 2: Amnesia happens before the age of two to four years.
+Action 2: Search[9/11]
+Observation 2: The September 11 attacks, commonly known as 9/11, were four coordinated Islamist suicide terrorist attacks carried out by al-Qaeda against the United States in 2001.
+Thought 3: 9/11 attacks happened in 2001. A student of the class of 2017 is born around 1999, they would have been around 2 years old during the 9/11 attacks in 2001. Amnesia happens before the age of two to four years, so a student of the class of 2017 would have amnesia about 9/11.
+Action 3: Finish[Yes]
+Question: Is average number of peas in a pod enough commas for a billion?
+Thought 1: I need to search average number of peas in a pod and billion, and find if the average number of peas in a pod is enough commas for a billion.
+Action 1: Search[peas]
+Observation 1: The pea is most commonly the small spherical seed or the seed-pod of the flowering plant species Lathyrus oleraceus. Each pod contains several peas, which can be green or yellow.
+Thought 2: Each pod contains several peas. The number of several is usually three to five.
+Action 2: Search[billion]
+Observation 2: Billion is a word for a large number, and it has two distinct definitions: 1,000,000,000, i.e. one thousand million, or 109 (ten to the ninth power), as defined on the short scale.
+Thought 3: A billion is expressed as '1,000,000,000', which amounts to three commas. The average number of peas in a pod is three to five, which is indeed greater than the number of commas used in a billion (3 commas), so the answer is yes.
+Action 3: Finish[Yes]

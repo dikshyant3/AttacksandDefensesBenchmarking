@@ -1,0 +1,19 @@
+{
+  "upstream_repository": "https://github.com/ivaxi0s/LLM-agent-memory-poisoning",
+  "upstream_commit": "70de017714abd6d12bb4681e93437461ba6f9a19",
+  "paper": "https://arxiv.org/abs/2605.15338",
+  "selection": "First N unchanged records from each released generated main split",
+  "source_counts": {
+    "behaviour_true_optimized_with_memories.json": 250,
+    "behaviour_true_optimized_without_memories.json": 250,
+    "agent_true_optimized_with_memories.json": 100,
+    "agent_true_optimized_without_memories.json": 100
+  },
+  "subset_counts": {
+    "behaviour_true_optimized_with_memories.json": 70,
+    "behaviour_true_optimized_without_memories.json": 70,
+    "agent_true_optimized_with_memories.json": 28,
+    "agent_true_optimized_without_memories.json": 28
+  },
+  "notes": "196 preserves the main campaign's 5:2 behavior-to-agent ratio and 1:1 with/without-memory ratio exactly. Every row is an attack case containing a benign document and an adversarial goal; there is no benign-row/adversarial-row class ratio."
+}

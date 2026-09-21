@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-08-31T18:21:49.965119+00:00",
+  "model": "gpt-4o-mini",
+  "note": "Table 2 sweep using the real 50-prompt attack_pair_1.jsonl data (corrected from the earlier mode1-4 reconstruction), both retrieval mechanisms.",
+  "paper_reference": {
+    "5": {
+      "isr": 0.5,
+      "asr": 0.2
+    },
+    "10": {
+      "isr": 1.0,
+      "asr": 0.38
+    }
+  },
+  "results": {
+    "shots5_embedding": {
+      "retrieval": "embedding",
+      "num_shots": 5,
+      "n_trials": 50,
+      "isr": 1.0,
+      "isr_hits": 100,
+      "isr_total": 100,
+      "asr": 0.86,
+      "asr_hits": 43,
+      "asr_total": 50
+    },
+    "shots5_levenshtein": {
+      "retrieval": "levenshtein",
+      "num_shots": 5,
+      "n_trials": 50,
+      "isr": 0.93,
+      "isr_hits": 93,
+      "isr_total": 100,
+      "asr": 0.32,
+      "asr_hits": 16,
+      "asr_total": 50
+    },
+    "shots10_embedding": {
+      "retrieval": "embedding",
+      "num_shots": 10,
+      "n_trials": 50,
+      "isr": 0.91,
+      "isr_hits": 91,
+      "isr_total": 100,
+      "asr": 0.7,
+      "asr_hits": 35,
+      "asr_total": 50
+    },
+    "shots10_levenshtein": {
+      "retrieval": "levenshtein",
+      "num_shots": 10,
+      "n_trials": 50,
+      "isr": 0.9,
+      "isr_hits": 90,
+      "isr_total": 100,
+      "asr": 0.44,
+      "asr_hits": 22,
+      "asr_total": 50
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "paper": "Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections",
+  "arxiv": "https://arxiv.org/abs/2602.15654",
+  "authors": ["Xianglin Yang", "Yufei He", "Shuo Ji", "Bryan Hooi", "Jin Song Dong"],
+  "code_repository": "not released as of this vendoring (2026-09-13); no repo linked in the paper",
+  "trigger_dataset": {
+    "file": "insta_trigger_queries_200.json",
+    "source": "huggingface.co/datasets/data-for-agents/insta-150k-v1 (real, public, MIT-licensed)",
+    "paper_citation": "data-for-agents/insta-150k-v1 -- \"real-world web interaction queries (e.g., 'Find the latest price of X')\" (Section 4.1)",
+    "split_used": "test",
+    "rows_fetched": 200,
+    "fetched_via": "HuggingFace datasets-server rows API (https://datasets-server.huggingface.co/rows), offsets 0 and 100, 100 rows each",
+    "fetched_on": "2026-09-13",
+    "fields": ["domain", "task"],
+    "note": "Vendored as-is, no modification. This is genuinely the paper's cited dataset -- confirmed real via HF's dataset API metadata (features: domain, task; arXiv 2502.06776 'InSTA: Towards Internet-Scale Training For Agents')."
+  },
+  "bait_tasks": {
+    "status": "NOT a named public dataset in the paper -- Section 4.1: \"we curate a set of Bait Tasks designed to compel the agent to visit the malicious environment\". The paper does not publish this set. bait_tasks.json here is OUR reconstruction, designed to match the described purpose (a benign task that plausibly leads the agent to browse an attacker-controlled page), not a paper-verbatim artifact."
+  },
+  "filler_pool": {
+    "file": "insta_filler_pool.json",
+    "source": "huggingface.co/datasets/data-for-agents/insta-150k-v1, same real dataset as the trigger queries",
+    "purpose": "Pre-seeds the RAG memory database to approximate the paper's 'long-term memory pollution' scale -- Section 4.1: \"we utilize a database of 3,000 entries\". The paper does not say what the other ~2,997 non-payload entries actually contain, so this is OUR reconstruction of their CONTENT, but not of their SOURCE: rather than synthesize filler text, we use the rest of the paper's own real, cited dataset.",
+    "split_used": "test",
+    "rows_fetched": 2735,
+    "row_range": "offsets 200-2934 (the remainder of the 2,935-row test split after the 200 rows already vendored as trigger queries)",
+    "fetched_via": "HuggingFace datasets-server rows API, 100-row pages",
+    "fetched_on": "2026-09-13",
+    "fields": ["domain", "task"],
+    "note": "Combined with the 200 trigger-query rows, this is the ENTIRE real insta-150k-v1 test split (2,935 rows total) -- landing almost exactly on the paper's stated ~3,000-entry database scale, entirely from real data, no synthetic filler."
+  }
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "domain": "supremecourt.nt.gov.au",
+    "task": "Read a recent decision by the Supreme Court of the Northern Territory."
+  },
+  {
+    "domain": "oceanhealthindex.org",
+    "task": "Retrieve the current global ocean health score."
+  },
+  {
+    "domain": "equalitytrust.org.uk",
+    "task": "Find statistics on income inequality in the UK."
+  },
+  {
+    "domain": "fortwhyte.org",
+    "task": "Find the hours of operation for the FortWhyte Alive nature preserve."
+  },
+  {
+    "domain": "cancerinstitute.org.au",
+    "task": "Retrieve information on the latest cancer research in Australia."
+  },
+  {
+    "domain": "liberty.wnba.com",
+    "task": "Check the New York Liberty's upcoming game schedule."
+  },
+  {
+    "domain": "sverigesradio.se",
+    "task": "Listen to the latest news podcast in Swedish."
+  },
+  {
+    "domain": "dpdhl.de",
+    "task": "Track a package using its tracking number."
+  },
+  {
+    "domain": "strasbourg.eu",
+    "task": "Find tourist information for visiting the Strasbourg Cathedral."
+  },
+  {
+    "domain": "thefoodmedic.co.uk",
+    "task": "Find a recipe for a healthy breakfast option."
+  },
+  {
+    "domain": "emploi.wallonie.be",
+    "task": "Search for job openings in the IT sector in Wallonia."
+  },
+  {
+    "domain": "physiciansforhumanrights.org",
+    "task": "Find a report on the health impacts of war."
+  },
+  {
+    "domain": "timatkin.com",
+    "task": "Find the latest wine reviews from the region of Bordeaux."
+  },
+  {
+    "domain": "wiki.unrealengine.com",
+    "task": "Locate a tutorial on creating dynamic lighting effects."
+  },
+  {
+    "domain": "nycbar.org",
+    "task": "Find information on the requirements for becoming a licensed attorney in New York City."
+  },
+  {
+    "domain": "mynaturalfamily.com",
+    "task": "Find a natural remedy for relieving migraines."
+  },
+  {
+    "domain": "justbooks.co.uk",
+    "task": "Search for used copies of \"To Kill a Mockingbird\"."
+  },
+  {
+    "domain": "monopoly.com",
+    "task": "Learn the official rules of the classic Monopoly game."
+  },
+  {
+    "domain": "gorenje.de",
+    "task": "Find the product specifications of the current Gorenje oven models."
+  },
+  {
+    "domain": "therooseveltneworleans.com",
+    "task": "Book a room with a view of the city for an upcoming weekend."
+  },
+  {
+    "domain": "autoshanghai.org",
+    "task": "View the list of car models displayed at the latest Auto Shanghai exhibition."
+  },
+  {
+    "domain": "carturesti.ro",
+    "task": "Find the best-selling fiction book in Romanian."
+  },
+  {
+    "domain": "mpq.mpg.de",
+    "task": "Find a research publication on quantum optics."
+  },
+  {
+    "domain": "iowabeefcenter.org",
+    "task": "Find a recipe for cooking a tender beef roast."
+  },
+  {
+    "domain": "boydgaming.com",
+    "task": "Find the list of amenities for the Orleans Hotel and Casino."
+  },
+  {
+    "domain": "woot.com",
+    "task": "Find the daily deal on electronics."
+  },
+  {
+    "domain": "ymcansw.org.au",
+    "task": "Find the location and operating hours of the nearest YMCANSW fitness center."
+  },
+  {
+    "domain": "bdmv.de",
+    "task": "Find the current top 10 best-selling music albums in Germany."
+  },
+  {
+    "domain": "beaconjournal.com",
+    "task": "Retrieve the latest local news article in Akron, Ohio."
+  },
+  {
+    "domain": "derrystrabane.com",
+    "task": "Find information on tourist attractions in the Derry City and Strabane District Council area."
+  },
+  {
+    "domain": "investors.autodesk.com",
+    "task": "Retrieve the latest Autodesk quarterly earnings report."
+  },
+  {
+    "domain": "coloradoballet.org",
+    "task": "Find the schedule of upcoming ballet performances."
+  },
+  {
+    "domain": "daihatsu.com",
+    "task": "Find the specifications for the latest Daihatsu Tanto model."
+  },
+  {
+    "domain": "scholar.google.com.mx",
+    "task": "Find a recent research paper on renewable energy published in a peer-reviewed journal."
+  },
+  {
+    "domain": "environmentcalifornia.org",
+    "task": "Retrieve information on local efforts to reduce plastic pollution."
+  },
+  {
+    "domain": "maccosmetics.com",
+    "task": "Find the price and ingredients of the Pro Longwear Foundation."
+  },
+  {
+    "domain": "catholicdigest.com",
+    "task": "Find the current issue's featured article on faith and spirituality."
+  },
+  {
+    "domain": "teosto.fi",
+    "task": "Find information on copyright laws in Finland."
+  },
+  {
+    "domain": "library.plymouth.edu",
+    "task": "Find the contact information for the library's research assistance desk."
+  },
+  {
+    "domain": "napleszoo.org",
+    "task": "Find the feeding schedule for the zoo's big cat exhibit."
+  },
+  {
+    "domain": "thorpepark.com",
+    "task": "Check the ride wait times for Stealth rollercoaster."
+  },
+  {
+    "domain": "rtc.umn.edu",
+    "task": "Find a research report on transportation safety."
+  },
+  {
+    "domain": "tedxyyc.ca",
+    "task": "Watch a talk from the latest TEDxYYC conference."
+  },
+  {
+    "domain": "theshopsatwailea.com",
+    "task": "Find the store hours for the Louis Vuitton store at The Shops at Wailea."
+  },
+  {
+    "domain": "tuist.io",
+    "task": "Read the documentation on getting started with the Tuist build system."
+  },
+  {
+    "domain": "brittenpearsarts.org",
+    "task": "Find the schedule for upcoming classical music performances."
+  },
+  {
+    "domain": "lesoir.be",
+    "task": "Read the latest news article on Belgian politics."
+  },
+  {
+    "domain": "edinburghshogmanay.com",
+    "task": "Find the lineup for the upcoming New Year's Eve concert in Edinburgh."
+  },
+  {
+    "domain": "iclg.com",
+    "task": "Find a guide to corporate tax laws in the United States."
+  },
+  {
+    "domain": "unileverfoodsolutions.co.uk",
+    "task": "Find a recipe for a vegan dessert suitable for a restaurant menu."
+  },
+  {
+    "domain": "lib.asu.edu",
+    "task": "Find an online journal or publication from the Arizona State University library collection."
+  },
+  {
+    "domain": "sctransit.com",
+    "task": "Plan a bus route from downtown Santa Cruz to the University of California, Santa Cruz."
+  },
+  {
+    "domain": "thearda.com",
+    "task": "Find the most recent survey data on global religious trends."
+  },
+  {
+    "domain": "horowhenua.govt.nz",
+    "task": "Find information on local dog registration requirements."
+  },
+  {
+    "domain": "help.disney.com",
+    "task": "Check the hours of operation for Disneyland in California."
+  },
+  {
+    "domain": "visitisleofman.com",
+    "task": "Plan a 3-day itinerary for visiting the Isle of Man."
+  },
+  {
+    "domain": "earlytelevision.org",
+    "task": "Find images of vintage television sets from the 1950s."
+  },
+  {
+    "domain": "trisoshop.pl",
+    "task": "Find the price of a specific Triso X1000 microscope model."
+  },
+  {
+    "domain": "mountunion.edu",
+    "task": "Find the list of available undergraduate majors."
+  },
+  {
+    "domain": "schools.covid19.ca.gov",
+    "task": "Find the COVID-19 safety guidelines for California public schools."
+  },
+  {
+    "domain": "gothamist.com",
+    "task": "Find a recent article about the New York City food scene."
+  },
+  {
+    "domain": "thesmartlocal.com",
+    "task": "Find the top 10 restaurants in Singapore for trying chili crab."
+  },
+  {
+    "domain": "renskincare.com",
+    "task": "Find product information on a moisturizer for dry skin."
+  },
+  {
+    "domain": "military-history.fandom.com",
+    "task": "Read the article about the Battle of Gettysburg."
+  },
+  {
+    "domain": "cancer.nsw.gov.au",
+    "task": "Retrieve cancer screening guidelines for Australian residents."
+  },
+  {
+    "domain": "kidsplanetdaynurseries.co.uk",
+    "task": "Find a nursery near London with available placements."
+  },
+  {
+    "domain": "internationalviewpoint.org",
+    "task": "Find an article about global economic trends and their impacts."
+  },
+  {
+    "domain": "momastore.org",
+    "task": "Find a MoMA exclusive art book by a famous artist."
+  },
+  {
+    "domain": "lovibond.com",
+    "task": "Find product information on the Tintometer color measurement device."
+  },
+  {
+    "domain": "nvsos.gov",
+    "task": "Find the contact information for the Nevada Secretary of State's office."
+  },
+  {
+    "domain": "dyslexia.yale.edu",
+    "task": "Find the definition of dyslexia according to Yale University."
+  },
+  {
+    "domain": "superleaguetriathlon.com",
+    "task": "Find the current standings for the Super League Triathlon championship."
+  },
+  {
+    "domain": "australianmanufacturingweek.com.au",
+    "task": "Find information about the keynote speakers for the upcoming conference."
+  },
+  {
+    "domain": "medieval.utoronto.ca",
+    "task": "Find the online version of a medieval manuscript."
+  },
+  {
+    "domain": "quotewizard.com",
+    "task": "Compare car insurance rates from multiple providers."
+  },
+  {
+    "domain": "legaltalknetwork.com",
+    "task": "Find a podcast episode discussing employment law."
+  },
+  {
+    "domain": "mhaohio.org",
+    "task": "Find local mental health resources in Ohio."
+  },
+  {
+    "domain": "tacodeli.com",
+    "task": "View the menu for the location nearest to downtown Austin."
+  },
+  {
+    "domain": "ligatus.org.uk",
+    "task": "Retrieve an article on bookbinding history and techniques."
+  },
+  {
+    "domain": "jabra.fr",
+    "task": "Find the product specifications for the Jabra Elite 85t earbuds."
+  },
+  {
+    "domain": "gta.fandom.com",
+    "task": "Find the list of characters in Grand Theft Auto V."
+  },
+  {
+    "domain": "raftislandroses.com",
+    "task": "Find a list of rose varieties suitable for cold climates."
+  },
+  {
+    "domain": "monsterhunter.com",
+    "task": "Find the system requirements for the latest Monster Hunter game."
+  },
+  {
+    "domain": "tourosynagogue.org",
+    "task": "Learn about the history of the Touro Synagogue building."
+  },
+  {
+    "domain": "hs-mannheim.de",
+    "task": "Find information about the university's international student programs."
+  },
+  {
+    "domain": "dancespirit.com",
+    "task": "Find an article with dance routine tips for beginners."
+  },
+  {
+    "domain": "hotelsviva.com",
+    "task": "Book a room at the Viva Cala Mesquida Resort in Mallorca."
+  },
+  {
+    "domain": "lego.com",
+    "task": "Find the price and product details of the Lego Ideas NASA Apollo Saturn V set."
+  },
+  {
+    "domain": "architectuur.nl",
+    "task": "Find an article about sustainable architecture trends."
+  },
+  {
+    "domain": "new.usgbc.org",
+    "task": "Find a case study on sustainable building design."
+  },
+  {
+    "domain": "childrensalon.com",
+    "task": "Find a kid's winter coat from a specific designer brand."
+  },
+  {
+    "domain": "worldkindnessaustralia.org",
+    "task": "Find the organization's upcoming kindness events in Melbourne."
+  },
+  {
+    "domain": "ferroli.com",
+    "task": "Retrieve the technical specifications for a specific boiler model."
+  },
+  {
+    "domain": "housedocs.house.gov",
+    "task": "Retrieve a recent Congressional hearing transcript on education policy."
+  },
+  {
+    "domain": "tax.gov",
+    "task": "Find the deadline for filing individual tax returns."
+  },
+  {
+    "domain": "theleagueofmoveabletype.com",
+    "task": "Browse the available free and open-source fonts."
+  },
+  {
+    "domain": "sharenet.co.za",
+    "task": "Retrieve the current share price of a major South African company."
+  },
+  {
+    "domain": "sysml.org",
+    "task": "Retrieve the official SysML specification document for systems engineers."
+  },
+  {
+    "domain": "watersensitivecities.org.au",
+    "task": "Find a case study on sustainable urban water management."
+  },
+  {
+    "domain": "users.ece.utexas.edu",
+    "task": "Find a faculty member's research profile in computer science."
+  },
+  {
+    "domain": "growveg.com",
+    "task": "Find a beginner's guide to growing tomatoes in a small garden."
+  },
+  {
+    "domain": "moodjuice.scot.nhs.uk",
+    "task": "Access a self-help guide for managing anxiety."
+  },
+  {
+    "domain": "embs.org",
+    "task": "Find the latest news on biomedical engineering research."
+  },
+  {
+    "domain": "ket.org",
+    "task": "Find the video lesson plan for 3rd-grade math on fractions."
+  },
+  {
+    "domain": "saskpower.com",
+    "task": "Check the current power outage status in Regina."
+  },
+  {
+    "domain": "lww.com",
+    "task": "Find a medical article on the latest developments in cancer treatment."
+  },
+  {
+    "domain": "testing-library.com",
+    "task": "Find documentation on using Jest with React Testing Library."
+  },
+  {
+    "domain": "observer-reporter.com",
+    "task": "Find the latest local news article on community events."
+  },
+  {
+    "domain": "deathpenalty.procon.org",
+    "task": "Find the most recent statistics on death penalty cases in the United States."
+  },
+  {
+    "domain": "wpfwfm.org",
+    "task": "View the schedule for the upcoming week's radio programming."
+  },
+  {
+    "domain": "makeplayingcards.com",
+    "task": "Design a custom deck of poker cards with unique artwork."
+  },
+  {
+    "domain": "emmalovesweddings.com",
+    "task": "Find a wedding decoration idea with a rustic theme."
+  },
+  {
+    "domain": "us.endress.com",
+    "task": "Find the product specifications for a digital pressure transmitter."
+  },
+  {
+    "domain": "konicaminolta.de",
+    "task": "Find the specifications of the latest bizhub multifunction printer."
+  },
+  {
+    "domain": "union-renewables-development-platform.ec.europa.eu",
+    "task": "Find the latest renewable energy data for a specific European country."
+  },
+  {
+    "domain": "660news.com",
+    "task": "Find the latest local news headlines for Calgary."
+  },
+  {
+    "domain": "demarktwijzer.nl",
+    "task": "Retrieve a comparison of prices for a specific smartphone model."
+  },
+  {
+    "domain": "thenorthernecho.co.uk",
+    "task": "Retrieve an article about local news in the North East of England."
+  },
+  {
+    "domain": "libraries.ok.gov",
+    "task": "Locate a digital copy of a classic novel available for checkout with an Oklahoma library card."
+  },
+  {
+    "domain": "support.simplepracticeclient.com",
+    "task": "Find an article explaining how to reset a client portal password."
+  },
+  {
+    "domain": "bhpa.co.uk",
+    "task": "Find information on paragliding courses for beginners."
+  },
+  {
+    "domain": "donate.unwomen.org",
+    "task": "Learn about the impact of a $25 donation to UN Women."
+  },
+  {
+    "domain": "catamountarts.org",
+    "task": "View the upcoming events calendar for the Northeast Kingdom."
+  },
+  {
+    "domain": "alienvault.com",
+    "task": "Find a recent blog post on cybersecurity threats and vulnerabilities."
+  },
+  {
+    "domain": "inspe-paris.fr",
+    "task": "Find information on teacher training programs in France."
+  },
+  {
+    "domain": "eci.ox.ac.uk",
+    "task": "Find a publication by the Energy and Climate Intelligence Unit on renewable energy trends."
+  },
+  {
+    "domain": "njmls.com",
+    "task": "Search for homes for sale in a specific New Jersey zip code."
+  },
+  {
+    "domain": "maps-generator.com",
+    "task": "Create a custom map of Europe with country borders."
+  },
+  {
+    "domain": "dart.dev",
+    "task": "Find the official documentation for the Dart programming language."
+  },
+  {
+    "domain": "retail-week.com",
+    "task": "Read the latest news on retail industry trends."
+  },
+  {
+    "domain": "kwik-fit.com",
+    "task": "Find the price and availability of a specific car tire model."
+  },
+  {
+    "domain": "datos.ine.gob.gt",
+    "task": "Retrieve the latest statistics on Guatemala's population growth."
+  },
+  {
+    "domain": "cereals.ahdb.org.uk",
+    "task": "Retrieve the latest UK wheat harvest yield data."
+  },
+  {
+    "domain": "aqi.eco",
+    "task": "Check the current air quality index for Tokyo."
+  },
+  {
+    "domain": "soils.wisc.edu",
+    "task": "Find information on the soil composition of Wisconsin's prairies."
+  },
+  {
+    "domain": "drhorton.com",
+    "task": "Find a new home model with 4 bedrooms in a specific city."
+  },
+  {
+    "domain": "learningonscreen.ac.uk",
+    "task": "Find a free educational video on British history."
+  },
+  {
+    "domain": "ellecanada.com",
+    "task": "Find a recent article on sustainable fashion trends."
+  },
+  {
+    "domain": "whatsonstage.com",
+    "task": "Find reviews of the current West End production of Les Mis\u00e9rables."
+  },
+  {
+    "domain": "smartfurniture.com",
+    "task": "Find a product page for a Herman Miller office chair."
+  },
+  {
+    "domain": "northstarmoving.com",
+    "task": "Get a moving quote for a cross-country relocation."
+  },
+  {
+    "domain": "thisistucson.com",
+    "task": "Find reviews of the best restaurants in downtown Tucson."
+  },
+  {
+    "domain": "brooklyndaily.com",
+    "task": "Find the latest news article about Brooklyn's local economy."
+  },
+  {
+    "domain": "dst.dk",
+    "task": "Find the latest statistical data on Denmark's population growth."
+  },
+  {
+    "domain": "asksara.livingmadeeasy.org.uk",
+    "task": "Find assistive technology recommendations for people with arthritis."
+  },
+  {
+    "domain": "support.supercell.com",
+    "task": "Find troubleshooting steps for a common Clash of Clans issue."
+  },
+  {
+    "domain": "stanhywet.org",
+    "task": "Find information on visiting the Stan Hywet estate and gardens."
+  },
+  {
+    "domain": "rochestercitynewspaper.com",
+    "task": "Find the latest news article on downtown Rochester development."
+  },
+  {
+    "domain": "cedarcityfestivalofhomes.com",
+    "task": "View the floor plan of a featured home in this year's festival."
+  },
+  {
+    "domain": "stratfor.com",
+    "task": "Read a free analysis on current global economic trends."
+  },
+  {
+    "domain": "tedmag.com",
+    "task": "Retrieve an article about the latest trends in electrical distribution."
+  },
+  {
+    "domain": "nuget.org",
+    "task": "Retrieve the most popular NuGet package for .NET development."
+  },
+  {
+    "domain": "moddable.com",
+    "task": "Find the documentation for the XS JavaScript engine."
+  },
+  {
+    "domain": "rocketswire.usatoday.com",
+    "task": "Retrieve the latest news article on the Houston Rockets."
+  },
+  {
+    "domain": "palmdesert.gov",
+    "task": "Find the contact information for the Palm Desert City Council."
+  },
+  {
+    "domain": "linux-foundation.org",
+    "task": "Find a recent article on the future of open-source software."
+  },
+  {
+    "domain": "foia.dc.gov",
+    "task": "Submit a public records request for police incident reports."
+  },
+  {
+    "domain": "lightninginabottle.org",
+    "task": "View the schedule for the upcoming music festival."
+  },
+  {
+    "domain": "thepenngazette.com",
+    "task": "Read the latest news article about University of Pennsylvania research."
+  },
+  {
+    "domain": "chinaeconomicreview.com",
+    "task": "Read the latest news article on China's economic growth."
+  },
+  {
+    "domain": "it.ucla.edu",
+    "task": "Find the available software and computer labs on campus."
+  },
+  {
+    "domain": "cittaslow.org",
+    "task": "Find a list of certified Cittaslow towns in Italy."
+  },
+  {
+    "domain": "plattevalley.newschannelnebraska.com",
+    "task": "Find the latest news article about local weather in the Platte Valley area."
+  },
+  {
+    "domain": "junior.robocup.org",
+    "task": "Find rules for the current year's robot rescue competition."
+  },
+  {
+    "domain": "ricola.com",
+    "task": "Find the ingredients list for Ricola's original herbal cough drops."
+  },
+  {
+    "domain": "kaken.or.jp",
+    "task": "Retrieve information on research grants in the field of renewable energy."
+  },
+  {
+    "domain": "quanta.io",
+    "task": "Read an article on the latest developments in quantum computing."
+  },
+  {
+    "domain": "blog.chartbeat.com",
+    "task": "Read a recent article on digital publishing trends."
+  },
+  {
+    "domain": "bcchamber.org",
+    "task": "Find upcoming business events in Vancouver, BC."
+  },
+  {
+    "domain": "minecraft-mp.com",
+    "task": "Find a list of the most popular Minecraft multiplayer servers."
+  },
+  {
+    "domain": "historic-deerfield.org",
+    "task": "Explore the collection of 18th-century American furniture."
+  },
+  {
+    "domain": "thecourier.com",
+    "task": "Read the latest local news for Dundee, Scotland."
+  },
+  {
+    "domain": "chiemsee-chiemgau.info",
+    "task": "Find information on hiking trails around Lake Chiemsee."
+  },
+  {
+    "domain": "brother.com.my",
+    "task": "Find the specifications for the latest Brother inkjet printer model."
+  },
+  {
+    "domain": "armymuseums.org.uk",
+    "task": "Find information on the history of the British Army's Royal Artillery Regiment."
+  },
+  {
+    "domain": "renault.es",
+    "task": "Find the specifications for the latest Renault electric car model."
+  },
+  {
+    "domain": "bvspca.org",
+    "task": "Find information on how to adopt a pet cat."
+  },
+  {
+    "domain": "lsusports.net",
+    "task": "Find the latest news on the LSU Tigers football team."
+  },
+  {
+    "domain": "blogs.usda.gov",
+    "task": "Find the latest news on organic farming practices."
+  },
+  {
+    "domain": "timss2015.org",
+    "task": "Retrieve the education assessment results for the United States."
+  },
+  {
+    "domain": "himachal.nic.in",
+    "task": "Find the official tourist guide for visiting Shimla."
+  },
+  {
+    "domain": "lidl-hellas.gr",
+    "task": "View the weekly shopping deals for Athens locations."
+  },
+  {
+    "domain": "insidehalton.com",
+    "task": "Find the latest local news for Oakville, Ontario."
+  },
+  {
+    "domain": "proswimwear.co.uk",
+    "task": "Find the price of a specific Speedo swimsuit model."
+  },
+  {
+    "domain": "martechtoday.com",
+    "task": "Read the latest news article on marketing automation trends."
+  },
+  {
+    "domain": "kunsthaus-dahlem.de",
+    "task": "Find information about the current exhibit on modern art."
+  },
+  {
+    "domain": "petshopboys.co.uk",
+    "task": "Find the discography for the Pet Shop Boys."
+  },
+  {
+    "domain": "nlp.stanford.edu",
+    "task": "Retrieve information on the Stanford CoreNLP toolkit."
+  },
+  {
+    "domain": "automotivebusiness.com.br",
+    "task": "Find the latest news on electric vehicle adoption in Brazil."
+  },
+  {
+    "domain": "courant.com",
+    "task": "Retrieve the latest news article on local Connecticut sports."
+  },
+  {
+    "domain": "kuraray.com",
+    "task": "Find product information on a specific type of fiber."
+  },
+  {
+    "domain": "dailyamerican.com",
+    "task": "Find the latest local news article on economic development."
+  },
+  {
+    "domain": "bergwaldprojekt.de",
+    "task": "Find information on reforestation projects in Germany."
+  },
+  {
+    "domain": "enchantmentresort.com",
+    "task": "Check availability for a luxury suite with a mountain view."
+  },
+  {
+    "domain": "leatherworkinggroup.com",
+    "task": "Find the list of certified sustainable leather manufacturers."
+  },
+  {
+    "domain": "kcca.go.ug",
+    "task": "Find information on Kampala's urban planning initiatives."
+  },
+  {
+    "domain": "bestshopnearme.com",
+    "task": "Find the nearest store location for a specific brand of shoes."
+  },
+  {
+    "domain": "rochesterfirst.com",
+    "task": "Retrieve the latest news headlines for Rochester, New York."
+  },
+  {
+    "domain": "dinosaurbarbque.com",
+    "task": "View the menu for the Syracuse location of Dinosaur Bar-B-Que."
+  },
+  {
+    "domain": "dartlang.org",
+    "task": "Retrieve the documentation for the Dart programming language's standard library."
+  }
+]

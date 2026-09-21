@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-09-20T23:18:07.546855+00:00",
+  "n_scenarios": 25,
+  "rows": [
+    {
+      "added": 0,
+      "kb_size": 41,
+      "methods": {
+        "dsrm": {
+          "rr": 0.84,
+          "asr_a": null,
+          "asr_a_exec": null
+        },
+        "naive": {
+          "rr": 1.0,
+          "asr_a": null,
+          "asr_a_exec": null
+        }
+      }
+    },
+    {
+      "added": 100,
+      "kb_size": 141,
+      "methods": {
+        "dsrm": {
+          "rr": 0.84,
+          "asr_a": null,
+          "asr_a_exec": null
+        },
+        "naive": {
+          "rr": 1.0,
+          "asr_a": null,
+          "asr_a_exec": null
+        }
+      }
+    },
+    {
+      "added": 200,
+      "kb_size": 241,
+      "methods": {
+        "dsrm": {
+          "rr": 0.84,
+          "asr_a": null,
+          "asr_a_exec": null
+        },
+        "naive": {
+          "rr": 1.0,
+          "asr_a": null,
+          "asr_a_exec": null
+        }
+      }
+    },
+    {
+      "added": 500,
+      "kb_size": 541,
+      "methods": {
+        "dsrm": {
+          "rr": 0.84,
+          "asr_a": null,
+          "asr_a_exec": null
+        },
+        "naive": {
+          "rr": 1.0,
+          "asr_a": null,
+          "asr_a_exec": null
+        }
+      }
+    },
+    {
+      "added": 1000,
+      "kb_size": 1041,
+      "methods": {
+        "dsrm": {
+          "rr": 0.84,
+          "asr_a": null,
+          "asr_a_exec": null
+        },
+        "naive": {
+          "rr": 1.0,
+          "asr_a": null,
+          "asr_a_exec": null
+        }
+      }
+    }
+  ],
+  "llm_cache": {
+    "hits": 360,
+    "real_calls_made": 0
+  }
+}

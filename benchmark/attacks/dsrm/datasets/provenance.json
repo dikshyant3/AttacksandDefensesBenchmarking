@@ -1,0 +1,56 @@
+{
+  "paper": "Memory poisoning attacks on retrieval-augmented Large Language Model agents via deceptive semantic reasoning",
+  "journal": "Engineering Applications of Artificial Intelligence 167 (2026) 113968",
+  "doi": "10.1016/j.engappai.2026.113968",
+  "authors": ["Hao Jing", "Fanxiao Li", "Yunyun Dong", "Wei Zhou", "Renyang Liu"],
+  "code_repository": "not released as of this vendoring (2026-09-17) -- the paper's own 'Ethical considerations' section states they deliberately withhold 'fully executable attack scripts or system-specific poisoning payloads' and provide only high-level algorithmic descriptions, so no DSRM-specific repo is expected to ever exist",
+
+  "benchmark": {
+    "name": "Agent Security Bench (ASB)",
+    "paper_citation": "Zhang, H., Huang, J., Mei, K., Yao, Y., Wang, Z., Zhan, C., Wang, H., Zhang, Y., 2024. Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents. arXiv:2410.02644 (ICLR 2025)",
+    "repo": "https://github.com/agiresearch/ASB",
+    "repo_commit": "1f561dccf92d55302368fa67679b4ba9d9c8fdc4",
+    "repo_commit_date": "2026-04-16T15:53:34-05:00",
+    "fetched_on": "2026-09-17",
+    "license": "MIT (see ASB_LICENSE, copied verbatim from the repo root)",
+    "note": "DSRM (Section 5.1, 'Datasets') states: 'we adopted ASB (Zhang et al., 2024b) ... We selected the first task from each of the 10 domains ... We then combined these selected tasks with all 400 attack tools provided by ASB, resulting in 400 unique attack scenarios.' All files below are real, unmodified rows from the actual ASB repository, not reconstructed -- confirmed by direct inspection: ASB's task text is byte-identical to DSRM's own Table B.5 examples, and ASB's config.json 'description' fields are byte-identical to DSRM's Table B.4 agent-role text."
+  },
+
+  "vendored_files": {
+    "asb_agent_task.jsonl": {
+      "source_path": "data/agent_task.jsonl",
+      "rows": 10,
+      "fields": ["agent_name", "agent_path", "tasks"],
+      "note": "One row per domain/agent, each with a list of tasks. IMPORTANT DISCREPANCY: this file has 10 agents but 51 total tasks, not 50 -- 9 agents have 5 tasks each and 'academic_search_agent' has 6. DSRM's text says '50 agent tasks spanning 10 distinct domains'; the real ASB data is 51. Not corrected -- vendored as-is. When DSRM says 'we selected the first task from each of the 10 domains', that selection is well-defined regardless of this discrepancy (it only affects domains not selected as the first task)."
+    },
+    "asb_all_attack_tools.jsonl": {
+      "source_path": "data/all_attack_tools.jsonl",
+      "rows": 400,
+      "fields": ["Attacker Tool", "Attacker Instruction", "Description", "Attack goal", "Attack Type", "Corresponding Agent", "Aggressive"],
+      "note": "Exactly matches DSRM's stated count ('all 400 attack tools provided by ASB'). Field values confirmed byte-identical in shape to DSRM's Table B.7 examples (PayloadSecurityTool / FlightPathVerificationTool are ASB attack tools for other agents than the ones sampled here, but the schema matches exactly)."
+    },
+    "asb_all_normal_tools.jsonl": {
+      "source_path": "data/all_normal_tools.jsonl",
+      "rows": 20,
+      "fields": ["Tool Name", "Description", "Expected Achievements", "Corresponding Agent"],
+      "note": "DSRM's Appendix B: 'ASB includes 50 agent tasks, 20 normal operational tools, and a curated set of third-party attack tools'. Matches Table B.6 schema (Description / Expected achievements / Corresponding agent) exactly, field names differing only in ASB's own raw JSON key casing."
+    },
+    "asb_agent_configs.json": {
+      "source_path": "pyopenagi/agents/example/<agent_name>/config.json, one file per agent, concatenated into a single JSON array here for convenience",
+      "rows": 10,
+      "fields": ["name", "description", "tools", "meta"],
+      "note": "'description' is each agent's system prompt P_s -- byte-identical to DSRM's Table B.4 'Agent role' column (verified directly for financial_analyst_agent, legal_consultant_agent, medical_advisor_agent). 'tools' lists that agent's subset of the 20 normal tools by slug (e.g. 'simulated_tools/market_data_api'), matching Tool Name entries in asb_all_normal_tools.jsonl. Only the 10 agents present in asb_agent_task.jsonl are included here -- ASB's repo has an 11th example config ('academic_agent') that is not one of the 10 task domains DSRM/ASB actually use, so it was excluded, not vendored."
+    },
+    "ASB_LICENSE": {
+      "source_path": "LICENSE",
+      "note": "MIT license, Copyright (c) 2024 AGI Research -- permits vendoring."
+    }
+  },
+
+  "explicitly_not_vendored": {
+    "tool_implementations": "pyopenagi/tools/**/*.py (real API wrappers for the 20 normal tools) -- not needed. DSRM's success metric (Eq. 2) is defined on the agent's SELECTED action, not on executed tool output, so only each tool's name + description is needed for the agent's tool-selection prompt (Table A.1's {tools} input), never its implementation.",
+    "aios_runtime": "aios/, pyopenagi/agents/react_agent.py, agent_factory.py, scheduler/ -- ASB's own agent-OS execution engine. DSRM's method only needs a simple prompt-in/action-out policy (pi_agent per Eq. 1), matching this repo's existing lightweight agent-loop pattern (zombie_agents/agent.py, minja_ehr/agent.py), not an external framework.",
+    "asb_own_attacks": "pyopenagi/agents/react_agent_attack.py's DPI/OPI/POT/mixed attack logic, and config/*.yml -- these are ASB's OWN attacks (direct/observation prompt injection, Plan-of-Thought backdoor), not DSRM. The one exception is react_agent_attack.py's memory-poisoning injected_prompt template, which is DSRM's cited 'ASB' baseline in Table 2/3 -- that exact string is quoted (not vendored as code) in FIDELITY.md for later baseline-reproduction phases.",
+    "asb_retriever_wiring": "ASB's own Chroma + OpenAIEmbeddings/OllamaEmbeddings memory store (react_agent_attack.py) -- confirmed (via grep, no DPR/RealM/MiniLM references anywhere in the ASB repo) that ASB does not provide the three retrievers DSRM evaluates against. The retriever layer is DSRM's own addition and will be built independently (see FIDELITY.md, Phase 2)."
+  }
+}

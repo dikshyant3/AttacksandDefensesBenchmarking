@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-09-20T23:13:31.381266+00:00",
+  "experiment": "dsrm_detection",
+  "n_scenarios": 5,
+  "scorer": "gpt2",
+  "methods": {
+    "dsrm": {
+      "n_poisoned": 5,
+      "n_benign": 17,
+      "rr": 1.0,
+      "mean_logppl_poisoned": 3.4080851078033447,
+      "mean_logppl_benign": 6.166961669921875,
+      "auc": 0.0,
+      "sweep": [
+        {
+          "threshold": 2.4,
+          "fpr": 1.0,
+          "fnr": 0.0
+        },
+        {
+          "threshold": 2.6,
+          "fpr": 1.0,
+          "fnr": 0.0
+        },
+        {
+          "threshold": 2.8,
+          "fpr": 1.0,
+          "fnr": 0.2
+        },
+        {
+          "threshold": 3.0,
+          "fpr": 1.0,
+          "fnr": 0.4
+        },
+        {
+          "threshold": 3.2,
+          "fpr": 1.0,
+          "fnr": 0.6
+        },
+        {
+          "threshold": 3.4,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 3.6,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 3.8,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 4.0,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 4.2,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 4.4,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 4.6,
+          "fpr": 1.0,
+          "fnr": 0.8
+        },
+        {
+          "threshold": 4.8,
+          "fpr": 1.0,
+          "fnr": 1.0
+        }
+      ]
+    }
+  }
+}

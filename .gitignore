@@ -1,7 +1,10 @@
-venv/
-.env
-__pycache__/
-chroma_db/
 *.pyc
-benchmark/logs/checkpoint_events.jsonl
+.env
 .pytest_cache/
+__pycache__/
+benchmark/attacks/agentpoison/embeddings_cache/
+benchmark/attacks/minja_ehr/data/mimic_iii.db
+benchmark/attacks/hidden_sleeper/results/chroma_external_manager/
+benchmark/logs/checkpoint_events.jsonl
+chroma_db/
+venv/
